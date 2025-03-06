@@ -1,0 +1,6 @@
+# 控制插件是否启用
+enabled: true
+delay-ticks: 60
+clear-weather: true
+worlds:
+  - world

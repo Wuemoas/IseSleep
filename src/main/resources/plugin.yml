@@ -1,0 +1,12 @@
+name: IseSleep
+version: '${version}'
+main: top.cs1.isesleep.IseSleep
+api-version: '1.19'
+
+commands:
+  xianka:
+    description: 爆击显卡
+  wuemoasiseyuzj:
+    description: scscdsfeqfdsdcxzfdwwqdasdafewsdasdfqwsxsfsqwfsdqd
+  emoaswuyuiseqx:
+    description: dahgacbhjdhafdavbcbygdafghadf
