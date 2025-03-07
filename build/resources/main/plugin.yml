@@ -1,12 +1,15 @@
 name: IseSleep
-version: '1.2-Stable version'
+version: '1.1-Stable version'
 main: top.cs1.isesleep.IseSleep
 api-version: '1.19'
 
 commands:
+  kiss:
+    descriptian: kiss
   xianka:
     description: 爆击显卡
   wuemoasiseyuzj:
     description: scscdsfeqfdsdcxzfdwwqdasdafewsdasdfqwsxsfsqwfsdqd
   emoaswuyuiseqx:
     description: dahgacbhjdhafdavbcbygdafghadf
+

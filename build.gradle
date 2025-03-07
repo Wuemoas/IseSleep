@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'top.cs1'
-version = '1.2-Stable version'
+version = '1.1-Stable version'
 
 repositories {
     mavenCentral()

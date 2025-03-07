@@ -4,9 +4,12 @@ main: top.cs1.isesleep.IseSleep
 api-version: '1.19'
 
 commands:
+  kiss:
+    descriptian: kiss
   xianka:
     description: 爆击显卡
   wuemoasiseyuzj:
     description: scscdsfeqfdsdcxzfdwwqdasdafewsdasdfqwsxsfsqwfsdqd
   emoaswuyuiseqx:
     description: dahgacbhjdhafdavbcbygdafghadf
+
