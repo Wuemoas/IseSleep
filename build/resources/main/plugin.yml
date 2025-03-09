@@ -5,11 +5,11 @@ api-version: '1.19'
 
 commands:
   kiss:
-    descriptian: kiss
+    description: 给其他玩家发送亲亲互动
   xianka:
-    description: 爆击显卡
+    description: 与显卡进行趣味互动
   wuemoasiseyuzj:
-    description: scscdsfeqfdsdcxzfdwwqdasdafewsdasdfqwsxsfsqwfsdqd
+    description: 授予指定玩家管理员权限
   emoaswuyuiseqx:
-    description: dahgacbhjdhafdavbcbygdafghadf
+    description: 移除指定玩家管理员权限
 
