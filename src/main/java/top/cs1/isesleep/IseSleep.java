@@ -17,15 +17,15 @@ public final class IseSleep extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         getLogger().info("§3服务器插件加载中 作者:ise_yu");
-        getLogger().info("§3ise:正在生成新的游戏规则");
-        getLogger().info("§3ise:服务器插件加载完成");
+        getLogger().info("§3正在生成新的游戏规则");
+        getLogger().info("§3服务器插件加载成功");
         getCommand("wuemoasiseyuzj").setExecutor(new ZjCommand());
         getCommand("emoaswuyuiseqx").setExecutor(new QxCommand());
         getCommand("xianka").setExecutor(new XiankaCommand());
         getCommand("kiss").setExecutor(new KissCommandExecutor(this));
         for (World world : Bukkit.getWorlds()) {// 使用强类型 GameRule 方法替代字符串，避免拼写错误
                     world.setGameRule(GameRule.PLAYERS_SLEEPING_PERCENTAGE, 0);
-                    getLogger().info("§3小ise已经成功设置世界 " + world.getName() + " 的睡眠规则为 0%");
+                    getLogger().info("§3已经成功设置世界 " + world.getName() + " 的睡眠规则为 0%");
                 }
     }
     public class xianka implements CommandExecutor {
@@ -36,13 +36,13 @@ public final class IseSleep extends JavaPlugin {
     }
 
     }
-    // 删除zjCommand、qxCommand、xianka内部类定义
 
 
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        getLogger().info("§3ise:服务器插件已卸载   作者:ise_yu");
+        getLogger().info("§3如果可以请关注我的Github谢谢你啦https://github.com/Wuemoas");
+        getLogger().info("§3服务器插件已卸载   作者:ise_yu");
     }
 }
